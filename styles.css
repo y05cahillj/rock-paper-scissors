@@ -1,0 +1,115 @@
+.body {
+    background-color: #00008B
+    
+}
+
+
+
+.choices {
+    display: flex;
+    justify-content: center;
+    color: #11FFEE;
+    font-family: sans-serif;
+    
+   
+}
+.scores {
+    display: flex;
+    justify-content: center;
+    color: #11FFEE;
+    font-family: sans-serif;
+
+    
+}
+
+.buttons {
+    
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    justify-content: center;
+
+    
+}
+
+.rockButton:hover {
+    box-shadow: 0px 0px 10px 0.5px #278ea5;
+}
+
+.rockButton {
+    margin: 40px;
+    width: 120px;
+    height: 35px;
+    font-size: large;
+    background-color: #11FFEE;
+    border: none;
+    font-weight: 800;
+    color: #00008B;
+    box-shadow: 0px 3.7px 2px #278ea5;
+    
+    
+}
+
+.scissorsButton:hover {
+    box-shadow: 0px 0px 10px 0.5px #278ea5;
+    
+}
+.scissorsButton {
+    margin: 40px;
+    width: 120px;
+    height: 35px;
+    font-size: large;
+    background-color: #11FFEE;
+    border: none;
+    font-weight: 800;
+    color: #00008B;
+    box-shadow: 0px 3.7px 2px #278ea5;
+    
+}
+
+.paperButton:hover{
+    box-shadow: 0px 0px 10px 0.5px #278ea5;
+}
+
+.paperButton {
+    margin: 40px;
+    width: 120px;
+    height: 35px;
+    font-size: large;
+    background-color: #11FFEE;
+    border: none;
+    font-weight: 800;
+    color: #00008B;
+    box-shadow: 0px 3.7px 2px #278ea5;;
+}
+
+.results {
+    justify-content: center;
+    display: flex;
+    color: #11FFEE;
+    font-family: sans-serif;
+}
+
+.title {
+    justify-content: center;
+    display: flex;
+    color: #11FFEE;
+    font-family: sans-serif;
+    margin-top: 110px;
+}
+
+.winDisplay {
+    justify-content: center;
+    display: flex;
+    color: #11FFEE;
+    font-family: sans-serif;
+    margin: 40px;
+}
+
+.yourScore{
+    margin-right: 80px;
+}
+.yourChoice{
+    margin-right: 80px;
+}
